@@ -1,0 +1,59 @@
+# Server Configuration File
+server_config:
+  # Server type: Choose between 'flask' or 'gunicorn'
+  server_type: flask
+  # Host to bind the server to (e.g., 'localhost' for local only, '0.0.0.0' for all interfaces)
+  host: 0.0.0.0
+  # Port number for the server (e.g., 5000, 8080, 8000)
+  port: 4500
+  # Flask-specific settings (used if server_type is 'flask' or on Windows)
+  flask:
+    # Enable debug mode (more logs, not for production)
+    debug: false
+    # Handle requests in separate threads
+    threaded: true
+    # Number of processes to run (use >1 for more concurrency)
+    processes: 1
+    # Reload the app on code changes (for development only)
+    use_reloader: false
+    # List of file paths to monitor for reloading (e.g., ['config.py'])
+    extra_files: []
+  # Gunicorn-specific settings (used if server_type is 'gunicorn')
+  gunicorn:
+    # Number of workers: 'auto' for max(2, CPU cores), or a specific number (e.g., 2, 4, 8)
+    workers: auto
+    # Worker class: 'sync' (default), 'gevent' (async), 'eventlet' (async), 'tornado'
+    worker_class: sync
+    # Seconds before a worker is killed/restarted if unresponsive (e.g., 30, 60)
+    timeout: 30
+    # Seconds to keep connections alive (e.g., 2, 5, 10)
+    keepalive: 5
+    # Log level: 'debug', 'info', 'warning', 'error', 'critical'
+    loglevel: info
+    # File path for access logs (e.g., '/var/log/access.log') or null to disable
+    accesslog: null
+    # File path for error logs (e.g., '/var/log/error.log') or null to disable
+    errorlog: null
+    # Override bind address (e.g., '127.0.0.1:8080'), or null to use host/port
+    bind: null
+    # Load app before forking workers (true/false)
+    preload: false
+    # Run in background (true/false)
+    daemon: false
+    # File path for PID file (e.g., '/var/run/gunicorn.pid') or null
+    pidfile: null
+    # Max connections per worker (for async workers, e.g., 500, 1000)
+    worker_connections: 1000
+    # Max requests per worker before restart (e.g., 1000, 0 to disable)
+    max_requests: 0
+    # Random jitter for max_requests (e.g., 50, 0 to disable)
+    max_requests_jitter: 0
+    # Number of threads per worker (e.g., 1, 4, 8)
+    threads: 1
+    # Directory for worker temp files (e.g., '/tmp') or null
+    worker_tmp_dir: null
+    # Seconds to wait for requests to finish before killing (e.g., 30, 60)
+    graceful_timeout: 30
+    # Restart worker if memory exceeds (e.g., '512M', '1G') or null
+    max_memory_restart: null
+

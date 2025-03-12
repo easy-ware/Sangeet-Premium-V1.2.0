@@ -1,0 +1,27 @@
+<h5 class="text-lg font-medium mt-4">1. Project Purpose</h5>
+<p>Sangeet Premium is an open-source project created solely for technical exploration, educational purposes, and personal enjoyment. This service is not intended for commercial use, enterprise applications, or subscription-based models.</p>
+
+<h5 class="text-lg font-medium mt-4">2. Open Source Nature</h5>
+<p>This project utilizes open-source libraries such as yt-dlp, Python, and other freely available technologies. The original source code can be accessed at the official GitHub repository: github.com/easy-ware/sangeet-premium. Users are encouraged to verify the legitimacy of any instance of Sangeet Premium they are using, as the open-source nature allows anyone to host or modify this service.</p>
+
+<h5 class="text-lg font-medium mt-4">3. Service Usage</h5>
+<p>Sangeet Premium facilitates access to audio content through publicly available APIs and open-source tools. Users are solely responsible for ensuring their usage complies with local laws regarding content access and copyright regulations in their jurisdiction.</p>
+
+<h5 class="text-lg font-medium mt-4">4. Content Limitations</h5>
+<p>Users acknowledge that selling, redistributing, or claiming ownership of any audio content accessed through Sangeet Premium is illegal and explicitly prohibited. The project owner and contributors do not claim ownership of any audio content accessed through this service.</p>
+
+<h5 class="text-lg font-medium mt-4">5. Disclaimer of Liability</h5>
+<p>The use of Sangeet Premium is entirely at your own risk. The project owner, contributors, and maintainers accept no responsibility or liability for any consequences resulting from the use of this service, including but not limited to legal issues, data loss, or system damage.</p>
+
+<h5 class="text-lg font-medium mt-4">6. Service Verification</h5>
+<p>Due to the open-source nature of this project, users must verify the authenticity and trustworthiness of any instance of Sangeet Premium they access. The official version is maintained at the GitHub repository mentioned above, and modifications made by third parties are beyond the control of the original project maintainers.</p>
+
+<h5 class="text-lg font-medium mt-4">7. No Affiliation</h5>
+<p>Sangeet Premium is not affiliated with or endorsed by any music service, content provider, or platform whose content may be accessible through this service. This project is an independent, non-commercial endeavor.</p>
+
+<h5 class="text-lg font-medium mt-4">8. Modifications and Distribution</h5>
+<p>Users may modify and distribute this software according to the license specified in the GitHub repository. However, any modifications must maintain these terms and clearly indicate that they are not the official version if substantive changes are made.</p>
+<h5 class="text-lg font-medium mt-4">official license from here</h5>
+<p>As server owner can manipulate terms get originol from here</p>
+<a href = "https://github.com/easy-ware/Sangeet-Premium/releases/download/License/license.txt">------------------------>Get from here<-------------------------------</a>
+<p class="mt-4">Last updated: February 28, 2025</p>

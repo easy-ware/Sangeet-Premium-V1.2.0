@@ -1,0 +1,24 @@
+Welcome to Sangeet - Build with Docker
+Here’s how to build and use the Sangeet Docker image for your platform. Follow the steps below based on your needs!
+
+1. Build for Your Current Platform
+Command:
+docker build -t custom_name_to_image .
+Alternative (using default name):
+docker build -t sangeet-premiumv1.2.0:local .
+What it does: This builds a Docker image for the platform you're currently using (e.g., your computer's architecture, like amd64 or arm64).
+Explanation:
+- docker build: The basic command to create a Docker image from a Dockerfile.
+- -t custom_name_to_image: Tags the image with a name you choose (e.g., my-sangeet). Replace custom_name_to_image with your preferred name.
+- -t sangeet-pre: Uses a default name, sangeet-pre, if you don’t want to customize it.
+- .: Tells Docker to use the Dockerfile in the current directory.
+
+2. Use a Prebuilt Image
+Command:
+docker pull tetsingimagesnet/sangeet-premiumv1.2.0:dev
+
+Additional Tips
+- Run the Image: After building or loading, start a container with:
+  docker run -it custom_name_to_image
+  (Replace custom_name_to_image with the name you used.)
+- Prerequisites: Ensure Docker is installed and, for multi-platform builds, Docker Buildx is set up (see Step 2 instructions).

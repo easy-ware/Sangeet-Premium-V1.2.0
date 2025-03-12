@@ -1,0 +1,12 @@
+services:
+  sangeet:
+    image: sangeet-premiumv1.2.0:local
+    restart : always
+    ports:
+      - "0.0.0.0:80:80"
+    volumes:
+      - Your-Dir/config:/sangeet/config
+      - Your-Dir/database_files:/sangeet/database_files
+      - Your-Dir/music:/sangeet/music
+
+

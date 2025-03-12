@@ -1,0 +1,11 @@
+{
+    "directories": [
+        {"name": "music"},
+        {"name" : "locals"},
+        {"name" : "cloudflare_driver_latest"},
+        {"name" : "ffmpeg" , "subdirs": ["bin"]},
+        {"name" : "logs"},
+        {"name" : "res"},
+        {"name" : "database_files"}
+    ]
+}
