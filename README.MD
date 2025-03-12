@@ -212,7 +212,7 @@ Once the server is running, access the Sangeet Premium interface by navigating t
    - Confirm FFmpeg is properly installed and accessible in PATH
 
 ### Reporting Issues
-If you encounter any bugs or have feature requests, please report them on our [GitHub Issues page](https://github.com/easy-ware/Sangeet-Premium/issues) with the following information:
+If you encounter any bugs or have feature requests, please report them on our [GitHub Issues page](https://github.com/easy-ware/Sangeet-Premium-V1.2.0.git) with the following information:
 - Detailed description of the issue
 - Steps to reproduce
 - Expected vs. actual behavior
