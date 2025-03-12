@@ -63,7 +63,7 @@ Sangeet Premium solves these issues by providing:
 1. **Clone the repository**
 ```bash
 git clone https://github.com/easy-ware/Sangeet-Premium-V1.2.0.git
-cd Sangeet-Premium
+cd Sangeet-Premium-V1.2.0
 ```
 
 2. **Install dependencies**
